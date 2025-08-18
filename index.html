@@ -99,23 +99,27 @@
     <!-- Great Tea, Freshly Presented start here -->
 
     <div
-      class="greattea_container min-h-[200px] max-w-[1280px] mx-auto mt-[100px] p-2 gap-4 flex"
+      class="greattea_container flex flex-col md:flex-row max-w-[1280px] mx-auto mt-[100px] gap-4"
     >
-      <div class="left_div h-full w-1/2 grid grid-cols-2 grid-rows-3 gap-4">
+      <div class="left_div h-full md:w-1/2 grid grid-cols-2 grid-rows-3 gap-4">
         <div
-          class="bg-gradient-to-r from[#ff0000] to-[#ff8938] opacity-10"
+          class="bg-gradient-to-r from[#ff0000] to-[#ff8938] opacity-10 rounded-lg"
         ></div>
-        <div class="row-span-2 bg-gradient-to-r from[#ff0000] to-[#ff8938]">
+        <div
+          class="row-span-2 bg-[#e6a6231a] flex justify-center items-center rounded-lg"
+        >
           <img src="./images/fresh-1.png " alt="" />
         </div>
-        <div class="row-span-2 bg-gradient-to-r from[#ff0000] to-[#ff8938]">
+        <div
+          class="row-span-2 bg-[#5776391a] flex justify-center items-center rounded-lg"
+        >
           <img src="./images/fresh-2.png" alt="" srcset="" />
         </div>
         <div
-          class="bg-gradient-to-r from[#ff0000] to-[#ff8938] opacity-10"
+          class="bg-gradient-to-r from-[#d9d9d9] to-[#ffffff00] rounded-lg"
         ></div>
       </div>
-      <div class="right_div">
+      <div class="right_div h-full md:w-1/2">
         <h1 class="text-5xl font-bold">Great Tea, Freshly Presented</h1>
         <p class="my-10">
           The meaning of gong cha is chanese is to provide the best tea to
@@ -135,6 +139,78 @@
           Premium Quality that makes tea more elegant and more durable when you
           use it.
         </p>
+      </div>
+    </div>
+    <!-- Meet our clients section starts here -->
+    <div
+      class="greattea_container flex flex-col md:flex-row max-w-[1280px] mx-auto mt-[100px] gap-4 h-[1000px] md:h-[600px] p-5 bg-gradient-to-r from-[#ff8938] to-[#ff0000] rounded-xl"
+    >
+      <div class="h-full md:w-1/2 text-white flex justify-center items-center">
+        <div>
+          <h1 class="text-5xl font-bold text-white">Meet Our Super Clients</h1>
+          <p class="text-white mt-8 mb-5">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+          <button
+            class="w-[139px] h-[56px] bg-white text-xl font-bold text-[#ff8938] rounded-lg"
+          >
+            Show All
+          </button>
+        </div>
+      </div>
+      <!-- right section start here -->
+
+      <div class="relative h-full md:w-1/2">
+        <div
+          class="absolute customer-reivew h-[210px] w-[70vw] md:w-[70%] bg-white p-10 top-[27%] left-[5%] rounded-lg z-10"
+        >
+          <p>
+            We are providing the best and suitable home insurance services for
+            the people who are interested to treatment
+          </p>
+          <h2 class="text-xl font-bold my-5">Salma Hayat</h2>
+          <div
+            class="absolute -top-[30px] -left-[30px] rounded-full p-1 bg-white"
+          >
+            <img src="./images/client.png" alt="" />
+          </div>
+          <img
+            src="./images/circles.png"
+            alt=""
+            class="absolute right-4 bottom-4"
+          />
+        </div>
+        <div
+          class="absolute customer-reivew h-[210px] w-[70vw] md:w-[70%] bg-white rounded-lg p-10 top-[10%] left-[20%] rounded-lg opacity-20"
+        >
+          <p>
+            We are providing the best and suitable home insurance services for
+            the people who are interested to treatment
+          </p>
+          <h2 class="text-xl font-bold my-5">Salma Hayat</h2>
+          <div
+            class="absolute -top-[30px] -left-[30px] rounded-full p-1 bg-white"
+          >
+            <img src="./images/client.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="absolute customer-reivew h-[210px] w-[70vw] md:w-[70%] bg-white rounded-lg p-10 top-[60%] left-[20%] rounded-lg opacity-20"
+        >
+          <p>
+            We are providing the best and suitable home insurance services for
+            the people who are interested to treatment
+          </p>
+          <h2 class="text-xl font-bold my-5">Salma Hayat</h2>
+          <div
+            class="absolute -top-[30px] -left-[30px] rounded-full p-1 bg-white"
+          >
+            <img src="./images/client.png" alt="" />
+          </div>
+        </div>
       </div>
     </div>
   </body>
